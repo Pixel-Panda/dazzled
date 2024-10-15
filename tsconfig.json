@@ -21,6 +21,7 @@
       "@/*": ["./*"],
       "auth": ["./auth.ts"],
       "@/components/*": ["./components/*"],
+      "action": ["./app/(auth)/action.ts"],
       "@/ui/*": ["./components/ui/*"],
       "@/utils/*":["./utils/*"]    }
   },
