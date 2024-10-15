@@ -3,5 +3,5 @@
 import { signIn } from "@/auth";
 
 export async function doLinkedInLogin() {
-  await signIn("linkedin", { redirectTo: "/" });
+  await signIn("linkedin", { redirectTo: `$(origin)/` });
 }
